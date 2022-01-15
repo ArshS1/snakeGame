@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+* {
+  background-color: lightblue;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#board {
+  background: linear-gradient(rgb(138, 187, 138), rgb(115, 160, 175));
+  width: 75vmin;
+  height: 75vmin;
+  border: 1px solid black;
+  display: grid;
+  grid-template-rows: repeat(17, 1fr);
+  grid-template-columns: repeat(17, 1fr);
+}
+
+#scoreContainer {
+  display: flex;
+  background: none;
+  font-family: "Bangers", cursive;
+  position: absolute;
+  align-self: flex-end;
+  align-content: center;
+  padding-bottom: 30px;
+  font-size: 4rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#highScore {
+  background: none;
+  font-family: "Bangers", cursive;
+  position: absolute;
+  align-self: flex-start;
+  align-content: center;
+  padding-bottom: 45px;
+  font-size: 6rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#about {
+  background: none;
+  font-family: "Bangers", cursive;
+  position: absolute;
+  top: 0vh;
+  right: 3vh;
+  font-size: 4rem;
+  font-weight: bold;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#about:hover {
+  text-decoration: black underline;
+  color: black;
+}
+
+.head {
+  background-color: lightblue;
+  border: 2px solid black;
+  transform: scale(1.02);
+  border-radius: 8px;
+}
+
+.snake {
+  background-color: rgb(47, 141, 141);
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.food {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 16px;
+}
