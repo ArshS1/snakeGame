@@ -48,6 +48,16 @@
   color: whitesmoke;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: black underline;
+  color: black;
+}
+
 #about {
   background: none;
   font-family: "Bangers", cursive;
@@ -58,11 +68,6 @@
   font-weight: bold;
   color: whitesmoke;
   cursor: pointer;
-}
-
-#about:hover {
-  text-decoration: black underline;
-  color: black;
 }
 
 .head {
