@@ -37,3 +37,8 @@ img {
     width: 70px;
     cursor: pointer;
 }
+
+img:hover {
+    border: 2px solid black;
+    border-radius: 16px;
+}
